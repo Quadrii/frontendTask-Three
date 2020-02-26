@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: arial, sans-serif;
+    height: 100%;
+}
+
+.main-div {
+    margin-top: -19px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.floatRight {
+    float: right;
+    margin-right: 11px;
+    margin-top: 30px;
+}
+
+.topNav {
+    float: left;
+}
+
+.rounded {
+    border-radius: 50%;
+    color: #fff;
+    padding: 5px 5px !important;
+}
+
+.round {
+    border-radius: 30px;
+    border: 1.2px solid #eee;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 670px;
+}
+
+.round:hover {
+    box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+}
+
+.search-icon {
+    color: #4285F4;
+    position: absolute;
+    top: 1px;
+    left: 630px;
+    z-index: 6;
+}
+
+.fa-microphone {
+    color: #4285F4;
+    position: absolute;
+    top: 16px;
+    left: 600px;
+    z-index: 6;
+}
+
+input[value="google calculator"] {
+    font-size: 17px;
+}
+
+.bars-icon .fa-bars {
+    margin-top: -33px;
+    margin-right: -10.5px;
+    font-size: 19px;
+}
+
+.rightul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.li-one {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.input-holder {
+    position: absolute;
+    top: 25px;
+    left: 170px;
+}
+
+.menu-div {
+    margin-left: 175px;
+    padding-top: 90px;
+}
+
+.menu-div ul li {
+    display: inline-block;
+}
+
+.menu-div small {
+    color: grey;
+}
+
+.menus:hover {
+    color: #4351AC;
+}
+
+.activehr {
+    width: 57px;
+    border-top: 1.5px solid blue;
+    border-bottom: 1.5px solid blue;
+    margin-top: 2px;
+}
+
+.fa-style {
+    padding-right: 5px;
+    color: grey;
+    font-size: 10px;
+}
+
+.active-small {
+    color: #2E75D7;
+}
+
+.settings {
+    margin-left: 50px;
+}
+
+.tools {
+    padding: 5px;
+}
+
+.tools:hover {
+    border: 1px solid #c6c6c6;
+    background-color: #f8f8f8;
+    padding: 5px 10px;
+}
+
+.hr {
+    width: 100%;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.resultsdive {
+    color: grey;
+    font-size: 17px;
+    margin-left: 185px;
+    margin-top: 20px;
+}
