@@ -51,7 +51,7 @@ a {
 .search-icon {
     color: #4285F4;
     position: absolute;
-    top: 1px;
+    top: 14px;
     left: 630px;
     z-index: 6;
 }
